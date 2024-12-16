@@ -21,6 +21,66 @@ import path from 'path';
 import url from 'url';
 ```
 ## Routing
+
+**reqs**
+app.get()  
+ Get a resource  
+app.post()  
+ Creation of new entities  
+securely  
+app.put()  
+ Complete replacements or  
+partial updates  
+app.patch()  
+ Partial updates  
+app.delete()  
+ Removal of existing entities  
+app.head()  
+ Identical to GET requests but  
+without the body  
+app.options()  
+ Identify allowed methods  
+ Like –h help flag for HTTP  
+app.all(route,  
+middleware)  
+ Use a middleware for any  
+method on a route
+
+req.params: URL parameters  
+req.query: URL query string parameters  
+req.route: current route as a string  
+req.cookies: cookies  
+req.signedCookies: signed cookies  
+ Both require cookie-parser  
+req.body: body/payload  
+req.headers: HTTP request headers  
+13  
+http://expressjs.com/en/4x/api.html#req
+
+**res**
+res.get(header) and  
+res.set(header, value): Set or get  
+HTTP header values  
+res.type(type): Specific setter for  
+HTTP “Content-Type” header  
+res.status(code): Sets the HTTP  
+response status  
+- `res.cookie(name, value)`: Creates  
+or replaces a cookie  
+- `res.clearCookie(name)`: Deletes a  
+cookie
+http://expressjs.com/en/4x/api.html#res
+
+res.send(data): Send response  
+res.json(data): Send response as JSON  
+data  
+res.sendfile(path): Send a file  
+res.download(path): Send a file (browser-  
+prompted)  
+res.redirect(path): Redirect to a different  
+route  
+http://expressjs.com/en/4x/api.html#res
+
 - middleware
 ```js
 app.use(cors());
@@ -136,6 +196,64 @@ The permitted SchemaTypes are:
 ```jsx
 const Animal = mongoose.model("Animal", animalSchema);
 ```
+
+Model.create(data, [callback (error, doc)]): creates a new  
+Mongoose document and saves it to the database  
+ Model.remove(query, [callback(error)]): removes documents  
+from the collection that match the query; when finished, calls  
+callback with error  
+ Model.find(query, [fields], [options], [callback(error, docs)]):  
+finds documents that match the query (as a JSON object);  
+possible to select fields and use options  
+ Model.update(query, update, [options], [callback(error,  
+affectedCount, raw)]): updates documents, similar to native  
+update  
+ Model.populate(docs, options, [callback(error, doc)]): populates  
+documents using references to other collections; an alternative  
+to another approach described in the next section
+Model.findOne(query, [fields], [options], [callback(error, doc)]): finds  
+the first document that matches the query  
+ Model.findById(id, [fields], [options], [callback(error, doc)]): finds the  
+first element for which _id equals the id argument (cast based on the  
+schema)  
+ Model.findOneAndUpdate([query], [update], [options],  
+[callback(error, doc)]): finds the first document that matches the query  
+(if present) and updates it, returning the document; uses findAndModify  
+ Model.findOneAndRemove(query, [options], [callback(error, doc)]):  
+finds the first document that matches the query and removes it when  
+returning the document  
+ Model.findByIdAndUpdate(id, [update], [options], [callback(error,  
+doc)]): similar to findOneAndUpdate using only the ID  
+ Model.findByIdAndRemove(id, [options], [callback(error, doc)]):  
+similar to findOneAndRemove using only the ID
+
+**docs**
+doc.model(name): returns another Mongoose model  
+ doc.remove([callback(error, doc)]): removes this document  
+ doc.save([callback(error, doc, affectedCount)]): saves this  
+document  
+ doc.update(doc, [options], [callback(error, affectedCount,  
+raw)]): updates the document with doc properties, and  
+options parameters, and then upon completion fires a  
+callback with error, number of affectedCount and the  
+database output  
+ doc.toJSON([option]): converts a Mongoose document to  
+JSON (options are listed later)  
+ doc.toObject([option]): converts a Mongoose document to a  
+plain JavaScript object (options are listed later)
+doc.isModified([path]): true/false, respectively, if some parts  
+(or the specific path) of the document are or are not modified  
+ doc.markModified(path): marks a path manually as modified  
+which is useful for mixed (Schema.Types.Mixed) data types  
+because they don't trigger the modified flag automatically  
+ doc.isNew: true/false, respectively, whether the document is  
+new or not new  
+ doc.id: returns the document ID  
+ doc.set(path, value, [type], [options]): sets value at a path  
+ doc.validate(callback(error)): checks validation manually  
+(triggered automatically before save())  
+Mongoose Instance (Document)  
+Methods
 
 - Connect
 ```js

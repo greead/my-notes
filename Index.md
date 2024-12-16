@@ -35,3 +35,31 @@ You are **required** to use the following technologies involving the following
 Come prepared to do your best!
 
 Note: The exam is open-notes and Internet. This includes ChatGPT and GitHub Copilot if you prefer to use it.
+
+## Links
+**Practice**
+https://github.com/bolitj01
+https://github.com/bolitj01/WebDevFinalExamPractice/tree/react-express-solution
+
+**HTML**
+https://github.com/bolitj01/HTML-Examples
+
+**CSS**
+https://github.com/bolitj01/CSS-Examples
+https://github.com/bolitj01/CSS-Preprocessing-Framework-Examples
+
+**JS**
+https://github.com/bolitj01/JavaScript-Examples
+
+**React**
+https://github.com/bolitj01/ReactExamples
+https://github.com/bolitj01/ReactLibraryExamples
+
+**Express**
+https://github.com/bolitj01/Back-End-Examples
+
+**Web Testing**
+https://github.com/bolitj01/WebTestingExamples
+
+**DevOps**
+https://github.com/bolitj01/docker-ci.cd

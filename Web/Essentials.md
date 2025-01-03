@@ -1,4 +1,4 @@
-[<< Mocha](Mocha) ‧ [React >>](React)
+[<< Mocha](Mocha.md) ‧ [React >>](React.md)
 
 ## HTML
 

@@ -11,59 +11,28 @@
             "id": "cea87971bccc7976",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Index"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
-            "id": "f25a44fc11412a09",
+            "id": "826c08ff78315016",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup.md",
+                "file": "Web/Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Setup"
             }
-          },
-          {
-            "id": "f1e82432e8d0bfc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mocha.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mocha"
-            }
-          },
-          {
-            "id": "6fe8e0bf12f8f2d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mocha.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mocha"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f2846c0c229dbc73",
@@ -187,14 +155,23 @@
               "icon": "lucide-list",
               "title": "Outline of Cypress"
             }
+          },
+          {
+            "id": "180aeb104fd7fe98",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,34 +180,41 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "cea87971bccc7976",
+  "active": "474cfa3b0520fa3b",
   "lastOpenFiles": [
-    "Setup.md",
-    "Index.md",
-    "Cypress.md",
+    "Web/React.md",
+    "Web/Practice Solution.md",
+    "Web/Practice Problem.md",
+    "Web/Pasted image 20241216113218.png",
+    "Web/Pasted image 20241216060208.png",
+    "Web/MongoDB.md",
+    "Web/Mocha.md",
+    "Web/Index.md",
+    "Web/Express.md",
+    "Web/Essentials.md",
+    "Web/Cypress.md",
+    "DOD/Practical Data Oriented Design.md",
+    "Pasted image 20250103152303.png",
+    "DOD/Zig Compiler.md",
+    "DOD/Intro Data Oriented Design.md",
+    "Pasted image 20250102181611.png",
+    "DOD",
+    "Web",
+    "Web/Setup.md",
     "Slides.zip",
-    "Slides/Web Overview (1).pptx",
-    "Slides/DevOps.pptx",
-    "Slides/Client-Server Introduction.pptx",
-    "Slides/CSS Preprocessors and Frameworks (1).pptx",
-    "Slides/JavaScript (1).pptx",
-    "Slides/CSS (1).pptx",
-    "Slides/HTML (2).pptx",
-    "Slides/ReactJS (1).pptx",
-    "Slides/Databases in the Web.pptx",
-    "Mocha.md",
-    "Pasted image 20241216113218.png",
-    "Express.md",
-    "MongoDB.md",
-    "React.md",
-    "Pasted image 20241216060208.png",
-    "Essentials.md",
+    "Web/Slides/Web Overview (1).pptx",
+    "Web/Slides/DevOps.pptx",
+    "Web/Slides/Client-Server Introduction.pptx",
+    "Web/Slides/CSS Preprocessors and Frameworks (1).pptx",
+    "Web/Slides/JavaScript (1).pptx",
+    "Web/Slides/CSS (1).pptx",
+    "Web/Slides/HTML (2).pptx",
     "links.css.md",
-    "Practice Solution.md",
-    "Practice Problem.md",
     "[[React]].md",
     "Untitled.canvas",
     "Does not exist.md",
@@ -242,9 +226,6 @@
     "Web Overview/Data Link.md",
     "Untitled 1.md",
     "Untitled 2.md",
-    "Web Overview/Application.md",
-    "Web Overview/Session.md",
-    "Web Overview/Network.md",
-    "Web Overview/Presentation.md"
+    "Web Overview/Application.md"
   ]
 }

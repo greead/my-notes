@@ -1,4 +1,4 @@
-[<< MongoDB](MongoDB) ‧ [Mocha >>](Mocha)
+[<< MongoDB](MongoDB.md) ‧ [Mocha >>](Mocha.md)
 
 https://learn.cypress.io/
 https://docs.cypress.io/examples/recipes

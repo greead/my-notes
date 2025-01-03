@@ -1,4 +1,4 @@
-[<< Cypress](Cypress) ‧ [Essentials >>](Essentials)
+[<< Cypress](Cypress.md) ‧ [Essentials >>](Essentials.md)
 
 https://mochajs.org/#getting-started
 ### Simple Functions

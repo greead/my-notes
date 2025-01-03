@@ -1,4 +1,4 @@
-[<< Essentials](Essentials) ‧ [Express >>](Express)
+[<< Essentials](Essentials.md) ‧ [Express >>](Express.md)
 ### JS Essentials
 [[Essentials#JavaScript]]
 

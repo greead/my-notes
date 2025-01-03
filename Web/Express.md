@@ -1,4 +1,4 @@
-[<< React](React) ‧ [MongoDB >>](MongoDB)
+[<< React](React.md) ‧ [MongoDB >>](MongoDB.md)
 
 ## Intro
 ```js

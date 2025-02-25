@@ -4,35 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "ba4ab9eb42a345e8",
+        "id": "76101f38a72a50c3",
         "type": "tabs",
         "children": [
           {
-            "id": "cea87971bccc7976",
+            "id": "9a55d2c840fe29a9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20250102181611.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250102181611"
             }
           },
           {
-            "id": "826c08ff78315016",
+            "id": "7f9056042113f796",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Setup.md",
+                "file": "Thesis/Citations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Setup"
+              "title": "Citations"
+            }
+          },
+          {
+            "id": "f8d83e3424fc8d90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thesis/Citations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Citations"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f2846c0c229dbc73",
@@ -171,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,8 +203,20 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "474cfa3b0520fa3b",
+  "active": "f8d83e3424fc8d90",
   "lastOpenFiles": [
+    "Thesis/Untitled.md",
+    "Thesis/Citations.md",
+    "Pasted image 20250102181611.png",
+    "Thesis",
+    "Pasted image 20250103152303.png",
+    "DOD/Memory Arenas.md",
+    "DOD/Data Structures.md",
+    "Godot/Godot General.md",
+    "Godot/GDScript.md",
+    "Godot/Intro and Setup.md",
+    "Godot",
+    "Web/Setup.md",
     "Web/React.md",
     "Web/Practice Solution.md",
     "Web/Practice Problem.md",
@@ -199,33 +229,21 @@
     "Web/Essentials.md",
     "Web/Cypress.md",
     "DOD/Practical Data Oriented Design.md",
-    "Pasted image 20250103152303.png",
     "DOD/Zig Compiler.md",
     "DOD/Intro Data Oriented Design.md",
-    "Pasted image 20250102181611.png",
     "DOD",
     "Web",
-    "Web/Setup.md",
     "Slides.zip",
     "Web/Slides/Web Overview (1).pptx",
     "Web/Slides/DevOps.pptx",
     "Web/Slides/Client-Server Introduction.pptx",
     "Web/Slides/CSS Preprocessors and Frameworks (1).pptx",
     "Web/Slides/JavaScript (1).pptx",
-    "Web/Slides/CSS (1).pptx",
-    "Web/Slides/HTML (2).pptx",
     "links.css.md",
     "[[React]].md",
     "Untitled.canvas",
     "Does not exist.md",
     "Notes/Notes.md",
-    "Web Overview/OSI 7-Layer Model.md",
-    "Web Overview/Transport.md",
-    "Notes/Untitled 1.md",
-    "Web Overview/TCP.md",
-    "Web Overview/Data Link.md",
-    "Untitled 1.md",
-    "Untitled 2.md",
-    "Web Overview/Application.md"
+    "Web Overview/OSI 7-Layer Model.md"
   ]
 }
